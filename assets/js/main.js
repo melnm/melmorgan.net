@@ -80,9 +80,9 @@
 				})
 				.each(function() {
 
-					var	$this = $(this),
-						id = $this.attr('href'),
-						$section = $(id);
+					var $this = $(this),
+    					id = $this.attr('href'),
+    					$section = (id.charAt(0) === '#') ? $(id) : $([]);
 
 					// No section for this link? Bail.
 						if ($section.length < 1)
