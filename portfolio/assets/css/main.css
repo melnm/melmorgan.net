@@ -1621,7 +1621,7 @@ input, select, textarea {
 				background-image: -ms-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
 				background-image: linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
 				pointer-events: none;
-				background-size: cover;
+				background-size: contain;
 				content: '';
 				display: block;
 				height: 100%;
@@ -1635,7 +1635,7 @@ input, select, textarea {
 				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 				background-position: center;
 				background-repeat: no-repeat;
-				background-size: cover;
+				background-size: contain;
 				border: 0;
 				height: 100%;
 				left: 0;
